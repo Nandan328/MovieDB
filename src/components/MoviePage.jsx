@@ -1,7 +1,7 @@
 import React from "react";
 
 const MoviePage = ({ movie }) => {
-  const img_url = "https://image.tmdb.org/t/p/w500";
+  const img_url = "https://image.tmdb.org/t/p/original";
   const check = (movie) => {
     try {
       return movie.vote_average.toFixed(1);

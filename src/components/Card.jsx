@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-const img_url = "https://image.tmdb.org/t/p/w500";
+const img_url = "https://image.tmdb.org/t/p/original";
 
 const Card = ({ movie, setMovie }) => {
   const navigate = useNavigate();
